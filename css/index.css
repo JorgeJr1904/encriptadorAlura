@@ -1,0 +1,72 @@
+:root {
+    /*Blue*/
+    --Dark-blue-100: #609ED4;
+    --Dark-Blue-200: #356EA9;
+    --Dark-Blue-300: #0A3871;
+    --Dark-Blue-400: #072B61;
+    --Dark-Blue-500: #052051;
+    /*Grey*/
+    --Gray-100: #CED4DA;
+    --Gray-200: #ADB5BD;
+    --Gray-300: #868E96;
+    --Gray-400: #495057;
+    --Gray-500: #343A40;
+    /*Font*/
+    --font-body: 'Poppins', arial, sans-serif;
+}
+
+* {
+    font-family: var(--font-body);
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 940px;
+    margin: 0 300px;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+article section {
+    margin: 20px 0 0 375px;
+    display: inline;
+    flex-direction: column;
+}
+
+.textarea {
+    height: 250px;
+    width: 300px;
+    font-size: 25px;
+    resize: none;
+    border: none;
+    background-color: transparent;
+}
+
+.Advertencia {
+    font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.logoA {
+    width: 10px;
+    height: 10px;
+}
