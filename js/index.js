@@ -1,15 +1,17 @@
 function botonEncriptar() {
     let datosE = document.getElementById("texto").value;
+    let parrafo = document.getElementById("result");
 
     let palabra = encriptar(datosE);
-    console.log(palabra);
+    parrafo.innerHTML = palabra;
 }
 
 function botonDesEncriptar() {
     let datosE = document.getElementById("texto").value;
+    let parrafo = document.getElementById("result");
 
     let palabra = desEncriptar(datosE);
-    console.log(palabra);
+    parrafo.innerHTML = palabra;
 }
 
 function desEncriptar(texto) {
